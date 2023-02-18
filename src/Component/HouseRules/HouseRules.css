@@ -1,0 +1,64 @@
+.house-rules-nav ul {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.house-rules-nav ul li {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.house-rules-date {
+    background: rgb(219, 219, 219);
+    padding: .5rem;
+    text-align: center;
+}
+
+.house-rules-header {
+    margin: 1rem 0;
+}
+
+.house-rules {
+    flex: 2;
+}
+
+.house-rules-form {
+    flex: 1.8;
+}
+
+.house-rules-card {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    padding: 2rem;
+}
+
+.house-rules-nav ul {
+    gap: 2rem;
+}
+
+.house-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.house-review {
+    display: flex;
+    gap: .5rem;
+}
+
+.house-review .hicon {
+    color: green;
+}
+.house-card-header-img img {
+  width: 14rem;
+  height: 8rem;
+  border-radius:.5rem ;
+  -webkit-border-radius:.5rem ;
+  -moz-border-radius:.5rem ;
+  -ms-border-radius:.5rem ;
+  -o-border-radius:.5rem ;
+}

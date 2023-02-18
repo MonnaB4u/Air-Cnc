@@ -1,0 +1,160 @@
+#header-main {
+    /* padding: 1rem 0; */
+    /* min-height: 70vh; */
+}
+
+.side-bar {
+    flex: 1;
+    margin: 0rem 2rem;
+}
+
+.main-content {
+    flex: 3;
+    margin: 1rem;
+}
+
+.lavels {
+    font-weight: bold;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.header-card-up {
+    margin: 1rem;
+}
+
+.header-card-up input {
+    border: none;
+}
+
+.header-time {
+    display: flex;
+
+}
+
+/* .header-card h3{
+    margin-left: 1rem;
+} */
+
+.arrival-card input {
+    border: none;
+    height: 2rem;
+}
+
+.arrival {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 1rem 3rem;
+    margin: .5rem 0rem;
+}
+
+.action_sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action_sort-card {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 2rem 0rem;
+    margin: .5rem 0rem;
+}
+
+.dropdown {
+    height: 4rem;
+    border: none;
+    margin-right: 4rem;
+}
+
+.header-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add span {
+    margin: 0 1rem;
+}
+
+.reduce {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.addition {
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.number {
+    font-weight: bold;
+}
+
+.cart-btn-area {
+    text-align: end;
+    margin: .9rem .5rem;
+}
+
+.cart-btn {
+    background: none;
+    box-shadow: 0px 0px 3px 2px #2bde8c;
+    color: #2bde8c;
+    border: none;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0, 3s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cart-btn-end {
+    background: none;
+    box-shadow: 0px 0px 3px 2px #2bde8c;
+    color: #2bde8c;
+    border: none;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0, 3s;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-end {
+    margin: 1rem 0;
+}
+
+.experience-main {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 2fr));
+    /* grid-auto-flow: dense; */
+    grid-gap: 1rem;
+    margin: .6rem 0;
+
+}
+
+.ex-head {
+    margin: 2rem 0;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 2fr));
+    grid-gap: 1rem;
+    margin: .6rem 0;
+
+}
+
+
+@media (max-width:768px) {
+    .experience-main {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+
+    .home-main {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}

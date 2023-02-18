@@ -1,0 +1,70 @@
+.card_border {
+    border: 1px solid gray;
+}
+
+.c-card .cc {
+    margin: 0 1rem;
+}
+
+.card_label p {
+    margin: 1rem;
+    margin-left: 1.9rem;
+}
+
+.card_container {
+    gap: 2rem;
+    margin: 0 1rem;
+}
+
+.card_label .ci {
+    height: 2rem;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.card_padding p {
+    margin: 1rem;
+    margin-left: 1.9rem;
+}
+
+.card_padding {
+    padding: 1rem 1rem;
+}
+
+.card-input-more {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_input_border {
+
+    margin: .2rem 1rem;
+
+}
+
+.cii {
+    height: 2rem;
+}
+
+@media (max-width: 767px) {
+    .cii {
+        margin: 0 .5rem;
+    }
+
+    .travel-container {
+        flex: .5;
+    }
+
+    .card-input-more {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cii {
+        width: 100%;
+    }
+
+    .card_border {
+        margin: .5rem 0rem;
+    }
+}
